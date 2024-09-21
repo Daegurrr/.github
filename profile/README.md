@@ -3,6 +3,11 @@
 **무더위 쉼터 정보 제공 서비스(DAEfree)** - 대구 무더위 쉼터 정보 제공 및 현재 위치 기반 인근 쉼터 안내, 쉼터 이용자 커뮤니티 제공   
 ![KakaoTalk_20240922_000753663](https://github.com/user-attachments/assets/10779e3f-6020-4fe5-8121-12e2b66a5e7f)
 
+## 레포지토리 링크
+**FE 레포지토리** : https://github.com/Daegurrr/Daegurrr_Frontend
+
+**BE 레포지토리** : https://github.com/Daegurrr/Daegurrr_backend
+
 ## 주제 구분
 -	S타입 대구 시내의 환경 문제를 해결하고 지속가능한 발전을 지원하는 서비스 
 
