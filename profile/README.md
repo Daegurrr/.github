@@ -19,7 +19,8 @@
 | 백엔드 | 프론트엔드 | 디자인 | 백엔드 | 
 
 ## 시연 영상
-Youtube 링크: [https://youtu.be/dOZQivC8648](https://youtu.be/dOZQivC8648)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/dOZQivC8648)
+
 
 ## 서비스 소개
 ### 서비스 개요
