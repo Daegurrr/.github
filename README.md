@@ -49,23 +49,31 @@
     - 지도를 통해 현재 위치 부근의 무더위 쉼터 정보를 자세하게 제공한다.
     - 무더위 쉼터 종류를 통해 검색하는 것도 가능하다.
       <img src="https://github.com/user-attachments/assets/b6145ee2-8b3d-4e8f-9a8c-a2f5083e91bf" height="500"/>
+
+<br/>
+      
 2. 무더위 쉼터 커뮤니티 페이지
     - 무더위 쉼터에 관한 정보를 주고 받을 수 있다.
     - 무더위 쉼터 이용자 사이에 도움을 주고 받을 수 있다.
       <img src="https://github.com/user-attachments/assets/ebd29c24-c88b-4777-8d7b-808df3c86dbe" height="500"/>
 
 ### 구현 방식
-1. 프론트엔드
+1. **프론트엔드**
     - React
     - axios, styled-components, zustand, framer-motion
     - 카카오 지도 API 사용
-2. 백엔드
+      
+2. **백엔드**
     - Java, Spring
     - AWS EC2에 Docker를 사용해 배포, DB로 RDS 사용
-    - 공공 데이터 API, Spring Scheduler로 매일 데이터 수집, 카카오 oauth 사용
-3. 디자인
+    - 무더위 쉼터 정보 공공데이터 API를 이용해 수집 ([사용한 데이터](https://www.data.go.kr/data/3038743/openapi.do))
+    - Spring Scheduler로 매일 주기적으로 데이터 수집
+    - 카카오 oauth 사용
+      
+3. **디자인**
     - Figma
     - Adobe Illustrator
+      
 
 ## 향후 개선 혹은 발전 방안
 **'DAEfree'가 웹 친화적인 UI라는 점에서 사용자 접근성과 사용편의성, 지속성을 고려하여 향후 개선 및 발전 방안을 도출했다.**
