@@ -66,7 +66,7 @@
 2. **백엔드**
     - Java, Spring
     - AWS EC2에 Docker를 사용해 배포, DB로 RDS 사용
-    - 무더위 쉼터 정보 공공데이터 API를 이용해 수집 ([사용한 데이터](https://www.safekorea.go.kr/idsiSFK/neo/sfk/cs/sfc/htw/htweaiList.html?menuSeq=862))
+    - 무더위 쉼터 정보 공공데이터 API 등을 이용해 수집 ([사용한 API](https://www.data.go.kr/data/3038743/openapi.do), [사용한 데이터](https://www.safekorea.go.kr/idsiSFK/neo/sfk/cs/sfc/htw/htweaiList.html?menuSeq=862)) 
     - Spring Scheduler로 매일 주기적으로 데이터 수집
     - 카카오 oauth 사용
       
