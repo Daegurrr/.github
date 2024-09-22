@@ -47,9 +47,11 @@
 1. 프론트엔드
     - React
     - axios, styled-components, zustand, framer-motion
+    - 지도 API 사용
 2. 백엔드
     - Java, Spring
     - AWS EC2에 Docker를 사용해 배포, DB로 RDS 사용
+    - 공공 데이터 API, Spring Scheduler로 매일 데이터 수집, 카카오 oauth 사용
 3. 디자인
     - Figma
     - Adobe Illustrator
