@@ -19,7 +19,7 @@
 | 백엔드 | 프론트엔드 | 디자인 | 백엔드 | 
 
 ## 시연 영상
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=dOZQivC8648)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/dOZQivC8648)
 
 
 ## 서비스 소개
@@ -27,11 +27,6 @@
 무더위에 지친 대구 시민을 위해 무더위 쉼터의 정보를 실시간으로 알려주는 서비스이다.
 사용자는 간단한 과정으로 무더위를 피할 수 있다.
 또한, 커뮤니티를 통해 쉼터에서 서로 도움을 주고 받으며 대구 시민 사이에 유대감과 커뮤니티를 형성할 수 있다.
-
-
-![KakaoTalk_20240922_055742610_01](https://github.com/user-attachments/assets/b6145ee2-8b3d-4e8f-9a8c-a2f5083e91bf)
-
-![KakaoTalk_20240922_055742610](https://github.com/user-attachments/assets/ebd29c24-c88b-4777-8d7b-808df3c86dbe)
 
 
 
@@ -42,18 +37,28 @@
 기타 지도 앱에서는 무더위 쉼터 정보를 제공하지 않는다. 또한 비슷한 서비스로 “안전디딤돌” 이라는 서비스가 있지만, 직접 사용해본 결과 4번의 클릭이 필요할 정도로 접근성이 좋지 않음을 느꼈다.  그래서 우리 서비스는 단 한번의 클릭으로 무더위에 지친 사용자에 가장 필요한 정보를 제공해줄 수 있고, 쉼터에서 무더위를 함께 이겨낼 커뮤니티 형성 기능에서도 기존 서비스와 차별점이 있다.
 
 ### 구현 내용 및 결과물
+**API명세**
+
+[<img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=black">](http://43.203.25.171:8080/api-docs)
+
+<br/>
+
+**구현 화면**
+
 1. 무더위 쉼터 지도 페이지
     - 지도를 통해 현재 위치 부근의 무더위 쉼터 정보를 자세하게 제공한다.
     - 무더위 쉼터 종류를 통해 검색하는 것도 가능하다.
+      <img src="https://github.com/user-attachments/assets/b6145ee2-8b3d-4e8f-9a8c-a2f5083e91bf" height="500"/>
 2. 무더위 쉼터 커뮤니티 페이지
     - 무더위 쉼터에 관한 정보를 주고 받을 수 있다.
     - 무더위 쉼터 이용자 사이에 도움을 주고 받을 수 있다.
+      <img src="https://github.com/user-attachments/assets/ebd29c24-c88b-4777-8d7b-808df3c86dbe" height="500"/>
 
 ### 구현 방식
 1. 프론트엔드
     - React
     - axios, styled-components, zustand, framer-motion
-    - 지도 API 사용
+    - 카카오 지도 API 사용
 2. 백엔드
     - Java, Spring
     - AWS EC2에 Docker를 사용해 배포, DB로 RDS 사용
