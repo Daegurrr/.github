@@ -55,7 +55,6 @@
       <img src="https://github.com/user-attachments/assets/ebd29c24-c88b-4777-8d7b-808df3c86dbe" height="500"/>
 
 ### 구현 방식
-어떤 언어와 프레임워크를 사용했는지, 만약 배포를 진행했다면 환경은 어떤지 등을 기재
 1. 프론트엔드
     - React
     - axios, styled-components, zustand, framer-motion
