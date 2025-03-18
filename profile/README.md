@@ -16,7 +16,7 @@
 | 권수현 | 김규회 | 김현민 | 채정민 |
 | :-----: | :-----: | :-----: | :-----: |
 | [<img src="https://github.com/kwonssshyeon.png" width="100px">](https://github.com/kwonssshyeon) | [<img src="https://github.com/KimKyuHoi.png" width="100px">](https://github.com/KimKyuHoi) | [<img src="https://github.com/ZZAEMMIN.png" width="100px">](https://github.com/ZZAEMMIN) | [<img src="https://github.com/chaejm55.png" width="100px">](https://github.com/chaejm55) | 
-| 백엔드 | 프론트엔드 | 디자인 | 백엔드 | 
+| 백엔드•프론트엔드 | 프론트엔드 | 디자인 | 백엔드 | 
 
 ## 시연 영상
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/dOZQivC8648)
